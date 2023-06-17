@@ -677,8 +677,8 @@ transform: translate(0, 100%);
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card-set:hover .overlay, .img-card,
-.card-set:focus .overlay, .img-card {
+.card-set:hover .overlay, .card-text,
+.card-set:focus .overlay, .card-text {
 transform: translateY(0%);
 }
 

@@ -610,6 +610,7 @@ transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
   text-align: left;
+  transform: translate(0, 100%);
 }
 
 
@@ -626,8 +627,11 @@ transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .card-set {
   width: calc((100% - 48px) / 3);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+
+.card-set-link {
+ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -662,7 +666,7 @@ letter-spacing: 0.02em;
 
 color: #F4F4FD;
 background: rgb(77, 90, 229); 
-padding: 40px 32px 0 32px;
+padding: 40px 32px;
  position: absolute;
  left: 0;
  top: 0;
@@ -675,7 +679,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .card-set:hover .overlay,
 .card-set:focus .overlay {
-transform: translate(0, 0);
+transform: translate(0);
 }
 
 /*=====bloc-flex====*/
@@ -773,6 +777,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .modal > .modal-close-btn:focus {
 fill: #ffffff;
 }
+
 
 /* .modal-close-btn > .close-btn-modal:hover,
 .modal-close-btn > .close-btn-modal:focus {
